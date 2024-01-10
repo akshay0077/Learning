@@ -183,7 +183,16 @@
         Run();
 
         // Promises
+        let prompt = new Promise((resolve, reject) => {
+            let booleanValue = false;
+            if (booleanValue) {
+                resolve(`promises resolved`);
+            } else {
+                reject(`prmises rejected`);
+            }
+        });
 
+        console.log(prompt);
 
         // Localstorage
         localStorage.setItem("name", "akshay");
