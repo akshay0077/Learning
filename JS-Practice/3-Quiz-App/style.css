@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.app {
+    width: 90%;
+    max-width: 600px;
+    border: 1px solid black;
+    margin: 100px auto 0;
+    padding: 50px 40px;
+}
+
+#answer-buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+#next-btn {
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+}
+
+#question {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
