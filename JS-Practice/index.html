@@ -209,6 +209,15 @@
             .then(content => content.json())
             .then(data => console.log(data))
             .catch(error => console.error(`Data is not featching ${error}`));
+
+        // Error handling
+        let age = 10;
+
+        try {
+            throw new Error("custom Error")
+        } catch (e) {
+            console.log(e);
+        } 
     </script>
 
 
@@ -217,6 +226,8 @@
     <button onclick="test()">Try it</button>
 
     <button onclick="document.getElementById('demo2').innerHTML=Date()">Today Date</button>
+
+
 
 </body>
 
